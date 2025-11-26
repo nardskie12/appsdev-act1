@@ -1,6 +1,10 @@
 function Button() {
   return (
-    <div className="btn-container"><a href="https://www.facebook.com/bernard.bioco.3">Visit My Facebook</a></div>
+    <div className="btn-container">
+      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+        View PDF Resume
+      </a>
+    </div>
   );
 }
 
